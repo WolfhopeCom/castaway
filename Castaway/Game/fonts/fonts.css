@@ -1,0 +1,9 @@
+/* Bundled copies of the Google Fonts the game uses (SIL Open Font License, see OFL-*.txt) */
+@font-face{font-family:'IM Fell English';font-style:normal;font-weight:400;font-display:swap;src:url(IMFeENrm28P.ttf) format('truetype')}
+@font-face{font-family:'IM Fell English';font-style:italic;font-weight:400;font-display:swap;src:url(IMFeENit28P.ttf) format('truetype')}
+@font-face{font-family:'IM Fell English SC';font-style:normal;font-weight:400;font-display:swap;src:url(IMFeENsc28P.ttf) format('truetype')}
+@font-face{font-family:'Barlow';font-style:normal;font-weight:500;font-display:swap;src:url(Barlow-Medium.ttf) format('truetype')}
+@font-face{font-family:'Barlow';font-style:normal;font-weight:600;font-display:swap;src:url(Barlow-SemiBold.ttf) format('truetype')}
+@font-face{font-family:'Barlow';font-style:normal;font-weight:700;font-display:swap;src:url(Barlow-Bold.ttf) format('truetype')}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:600;font-display:swap;src:url(BarlowCondensed-SemiBold.ttf) format('truetype')}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(BarlowCondensed-Bold.ttf) format('truetype')}

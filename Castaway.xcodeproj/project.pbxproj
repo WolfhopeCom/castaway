@@ -1,0 +1,278 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75832E875FEA36683B41E20A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AACB479C88625E0F41F13C8 /* AppDelegate.swift */; };
+		6FE917A134580F255A4A3956 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD465BB23B60D3FAC101237D /* SceneDelegate.swift */; };
+		654415AAD08369471092FF2B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D066B97B9EE06C397DC7E89 /* GameViewController.swift */; };
+		B208143FCA199D5668C981AA /* BundleSchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267033989C96AE625D83E9F8 /* BundleSchemeHandler.swift */; };
+		73EC906678F06B0611143396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E313C17DD0A116DFC03771 /* Assets.xcassets */; };
+		6EA6C0D4D364D5A1B59F7989 /* Game in Resources */ = {isa = PBXBuildFile; fileRef = 28AB32E6CE9924BF624AD405 /* Game */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F297354030422DFC531F7FB8 /* Castaway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Castaway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AACB479C88625E0F41F13C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD465BB23B60D3FAC101237D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D066B97B9EE06C397DC7E89 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		267033989C96AE625D83E9F8 /* BundleSchemeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleSchemeHandler.swift; sourceTree = "<group>"; };
+		B64482ACDBB947E155C9073D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3E313C17DD0A116DFC03771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28AB32E6CE9924BF624AD405 /* Game */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Game; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54E8AA43A04EFB5B5DEBD041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B19911C44BD755AB4F173858 = {
+			isa = PBXGroup;
+			children = (
+				107135D82C0898ACC5295C33 /* Castaway */,
+				3936A56E033FE156B0D38F79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3936A56E033FE156B0D38F79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F297354030422DFC531F7FB8 /* Castaway.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		107135D82C0898ACC5295C33 /* Castaway */ = {
+			isa = PBXGroup;
+			children = (
+				1AACB479C88625E0F41F13C8 /* AppDelegate.swift */,
+				DD465BB23B60D3FAC101237D /* SceneDelegate.swift */,
+				2D066B97B9EE06C397DC7E89 /* GameViewController.swift */,
+				267033989C96AE625D83E9F8 /* BundleSchemeHandler.swift */,
+				28AB32E6CE9924BF624AD405 /* Game */,
+				B3E313C17DD0A116DFC03771 /* Assets.xcassets */,
+				B64482ACDBB947E155C9073D /* Info.plist */,
+			);
+			path = Castaway;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* Castaway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EA4497A250DAA79A5DFA797 /* Build configuration list for PBXNativeTarget "Castaway" */;
+			buildPhases = (
+				7C0010B090EBC80AE5972A29 /* Sources */,
+				54E8AA43A04EFB5B5DEBD041 /* Frameworks */,
+				D35441678F4E92018E639BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Castaway;
+			productName = Castaway;
+			productReference = F297354030422DFC531F7FB8 /* Castaway.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 2D6CADEF21B99EA5E890ABE8 /* Build configuration list for PBXProject "Castaway" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B19911C44BD755AB4F173858;
+			productRefGroup = 3936A56E033FE156B0D38F79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* Castaway */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D35441678F4E92018E639BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73EC906678F06B0611143396 /* Assets.xcassets in Resources */,
+				6EA6C0D4D364D5A1B59F7989 /* Game in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C0010B090EBC80AE5972A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75832E875FEA36683B41E20A /* AppDelegate.swift in Sources */,
+				6FE917A134580F255A4A3956 /* SceneDelegate.swift in Sources */,
+				654415AAD08369471092FF2B /* GameViewController.swift in Sources */,
+				B208143FCA199D5668C981AA /* BundleSchemeHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4ED3C4B22349DD5A28B27128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		293A5B816A2FADE15A3C7B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		981A7673EDCC40225DDFC7BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Castaway/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Castaway;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.adventure-games";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wolfhope.castaway";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30F33F93A3C7974A1B5FCB33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Castaway/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Castaway;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.adventure-games";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wolfhope.castaway";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D6CADEF21B99EA5E890ABE8 /* Build configuration list for PBXProject "Castaway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED3C4B22349DD5A28B27128 /* Debug */,
+				293A5B816A2FADE15A3C7B02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EA4497A250DAA79A5DFA797 /* Build configuration list for PBXNativeTarget "Castaway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				981A7673EDCC40225DDFC7BF /* Debug */,
+				30F33F93A3C7974A1B5FCB33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
